@@ -50,6 +50,7 @@
   line-height: 1.5;
   color:  var(--dark-slate-gray);
   font-weight: 600;
+  border: solid 5px var(--brick-red);
 }
 
 .content {
