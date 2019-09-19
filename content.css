@@ -1,0 +1,96 @@
+/* 
+.image {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+
+  
+  
+
+  
+} */
+
+/* clip-path: url(#svgPath); */
+
+.content h3 {
+ font-size: 66px;
+ color: white;
+ font-family: 'Michroma', sans-serif;
+
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  
+  position: relative;
+  
+}
+
+.image img {
+  width: auto;
+  height: 100%;
+  clip-path: url(#svgPath);
+}
+
+.svgPath {
+  height: auto;
+}
+
+.content-area {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Trirong', serif;
+  font-size: 36px;
+  line-height: 1.5;
+  color: navy;
+  font-weight: 600
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  
+}
+
+.content h3 {
+  padding-bottom: 15px;
+  font-family: 'Alike Angular', serif; 
+  letter-spacing: 7px;
+}
+
+.content-main {
+
+  font-size: 43px;
+  box-sizing: border-box;
+  padding-right: 10%;  
+  overflow-y: auto;
+  line-height: 143%;
+  letter-spacing: 3px;
+}
+
+#scrollbar-style::-webkit-scrollbar {
+  background-color: blue;
+}
+
+
+
+.curve-text-div {
+position:absolute;
+top: 0;
+height: 100%;
+width: 100%;
+
+}
+
+.textpath-text {
+  font-family: 'Trirong', serif;
+  color: red;
+}
