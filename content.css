@@ -13,18 +13,20 @@
 /* clip-path: url(#svgPath); */
 
 .content h3 {
- font-size: 66px;
- color: white;
- font-family: 'Michroma', sans-serif;
-
+  font-size: 5vw;
+  color: white;
+  font-family: 'Michroma', sans-serif;
+  padding-bottom: 15px;
+  font-family: 'Alike Angular', serif;
+  letter-spacing: 7px;
+  margin: 0;
 }
 
 .image {
   height: 100%;
   width: 100%;
-  
   position: relative;
-  
+  overflow-y: hidden;
 }
 
 .image img {
@@ -33,20 +35,21 @@
   clip-path: url(#svgPath);
 }
 
+/* 
 .svgPath {
   height: auto;
-}
+  
+} */
 
 .content-area {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   font-family: 'Trirong', serif;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 1.5;
-  color: navy;
-  font-weight: 600
-  
+  color:  var(--dark-slate-gray);
+  font-weight: 600;
 }
 
 .content {
@@ -56,41 +59,47 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 60px;
+  min-width: 33%;
+  box-sizing: border-box;
+  margin: 0;
   
 }
 
-.content h3 {
-  padding-bottom: 15px;
-  font-family: 'Alike Angular', serif; 
-  letter-spacing: 7px;
-}
-
 .content-main {
-
-  font-size: 43px;
+  font-size: 3vw;
   box-sizing: border-box;
-  padding-right: 10%;  
+  padding-right: 10%;
   overflow-y: auto;
   line-height: 143%;
   letter-spacing: 3px;
+  
 }
 
 #scrollbar-style::-webkit-scrollbar {
   background-color: blue;
 }
 
-
-
 .curve-text-div {
-position:absolute;
-top: 0;
-height: 100%;
-width: 100%;
-
+  position: absolute;
+  top: 0;
+  height: auto;
+  width: 100%;
+  max-height: 100%;
 }
 
 .textpath-text {
   font-family: 'Trirong', serif;
-  color: red;
+}
+
+.curve-text text {
+  fill: var(--medium-sea-green);
+  transform: translate(-5px, 5px);
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.image-wrap {
+  width: 100%;
+  
 }

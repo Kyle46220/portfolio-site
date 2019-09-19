@@ -1,0 +1,9 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  font-size: 5vh;
+  font-family: 'Michroma', sans-serif;
+  color: var(--wheat);
+
+}
