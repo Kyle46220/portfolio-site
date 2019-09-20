@@ -25,4 +25,10 @@
 }
  .header-content-left {
    white-space: nowrap;
+   text-decoration: none;
+ }
+
+ .header-content-left a {
+  text-decoration: none;
+  color: var(--dark-slate-gray);
  }

@@ -5,9 +5,15 @@
   height: 100%;
   padding: 3vw;
   box-sizing: border-box;
+  /* width:100%; */
 }
 .blog-post-wrapper h3 {
   color: var(--brick-red);
   font-family: 'Alike Angular', serif;
   
+}
+
+.blog-image {
+  width: 80%;
+  height: auto;
 }
