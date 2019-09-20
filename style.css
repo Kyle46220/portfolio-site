@@ -5,6 +5,8 @@
 @import "./ipad.css";
 @import "./form.css";
 @import "./work.css";
+@import "./blogpost.css";
+@import "./about.css";
 :root {
   --dark-slate-gray: #314D55;
   --golden-rod: #DCCF39;

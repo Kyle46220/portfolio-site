@@ -1,0 +1,12 @@
+.about-wrap {
+  height: 100%;
+  overflow-y: auto;
+  padding: 3vw;
+  box-sizing: border-box;
+}
+
+.about-image img {
+  height: 30vh;
+  width: auto;
+  float: right;
+}
