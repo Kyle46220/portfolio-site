@@ -14,7 +14,7 @@
 
 .content h3 {
   font-size: 5vw;
-  color: white;
+  color:var(--brick-red);
   font-family: 'Michroma', sans-serif;
   padding-bottom: 15px;
   font-family: 'Alike Angular', serif;
@@ -50,7 +50,7 @@
   line-height: 1.5;
   color:  var(--dark-slate-gray);
   font-weight: 600;
-  border: solid 5px var(--brick-red);
+  /* border: solid 5px var(--brick-red); */
 }
 
 .content {
@@ -79,6 +79,10 @@
 
 #scrollbar-style::-webkit-scrollbar {
   background-color: blue;
+}
+#scrollbar-style::-webkit-scrollbar-thumb {
+  background-color: var(--brick-red);
+  width: 20px;
 }
 
 .curve-text-div {

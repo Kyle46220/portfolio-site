@@ -1,0 +1,94 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 0.3fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  font-size: 20px;
+  height: 80%;
+  width: 100%;
+}
+
+.label-name {
+  grid-row: 1  2;
+  grid-column: 1 / 2;
+}
+.name-input {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+}
+.label-email {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  
+}
+.email-input {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+}
+.label-message {
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+}
+.message-input {
+  grid-row: 3/4;
+  grid-column: 3/4;
+
+}
+
+.submit-button {
+  grid-row: 4/5;
+  grid-column: 3/4;
+}
+/* .content-area {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+} */
+
+.form-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+  min-width: 300px;
+}
+
+.form-item-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  padding-right: 10px;
+}
+
+.input-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.input-box input {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.input-box {}
+
+#submit-button {
+  padding: 2vw;
+}
+
+#message {
+  height: 10vh;
+}
+
+.submit-button {
+  justify-content: center;
+}

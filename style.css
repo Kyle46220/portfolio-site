@@ -3,6 +3,8 @@
 @import "./main-nav.css";
 @import "./content.css";
 @import "./ipad.css";
+@import "./form.css";
+@import "./work.css";
 :root {
   --dark-slate-gray: #314D55;
   --golden-rod: #DCCF39;
@@ -20,6 +22,11 @@ body {
 
 .nav {
   display: none;
+  
+}
+.nav-link a { 
+text-decoration:none;
+  color: var(--brick-red);
 }
 
 h1 {
@@ -136,8 +143,11 @@ h1 {
     /* min-height: 50%; */
     overflow-y: visible;
   }
+  .projects-grid-wrapper {
+    display: flex;
+    flex-wrap: wrap;
 }
-
+ /* ######## */
 .body {
   height: 100%;
 }
