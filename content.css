@@ -1,16 +1,4 @@
-/* 
-.image {
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
-
-  
-  
-
-  
-} */
-
-/* clip-path: url(#svgPath); */
+/* this is the css that displays the component with clipped image and text path  */
 
 .content h3 {
   font-size: 5vw;

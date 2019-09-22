@@ -20,6 +20,8 @@
   fill: var(--brick-red);
   font-family: 'Alike Angular', serif;
   /* position: relative; */
+  height: 20%;
+  overflow: visible;
 }
 
 .about-textpath-text text{
@@ -29,6 +31,9 @@
 }
 
 .about-curve-text {
-  padding-bottom: 5%;
+  /* padding-bottom: 5%;
+  padding-top:5%; */
+  width: 100%;
+  overflow: visible;
 }
 
