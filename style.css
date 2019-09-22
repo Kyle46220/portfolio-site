@@ -10,11 +10,11 @@
 @import "./blogpost.css";
 @import "./about.css";
 :root {
-  --dark-slate-gray: rgb(26, 160, 197);
-  --golden-rod: rgb(245, 231, 78);
-  --wheat: rgb(240, 75, 226);
-  --brick-red: rgb(236, 9, 16);
-  --medium-sea-green: rgb(10, 241, 230);
+  --dark-slate-gray: rgb(29, 26, 197);
+  --golden-rod: rgb(247, 80, 158);
+  --wheat: rgb(223, 240, 75);
+  --brick-red: rgb(9, 221, 236);
+  --medium-sea-green: rgb(241, 114, 10);
 }
 
 body {
