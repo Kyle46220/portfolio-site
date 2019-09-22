@@ -6,39 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Kyle Smith - Junior Dev</title>
-  <link rel="stylesheet" href="./style.css"
-    integrity="aTSqxUSJiVYW0EU+yCmaCIjHJYKLLEIf9ZrLfREU5EguffPsZRv5ThgNlykETwDa5YgMUIkNoG86/bFtWr89ag==kylekyleunikyleukyleunkkykylkylkyleukylekkkkkkylkykylkykykkkykykkykylk">
+  <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Michroma|Trirong&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
 </head>
 
 <body>
   <div class="page-wrapper">
-    <div class="header">
+    <!-- This component is the header. It is the same on all html docs -->
+    <header class="header">
       <div class="header-content-left">
         <h2><a href="./index.html">KYLE SMITH</a></h2>
       </div>
       <div class="header-content-right">
         <h4>Junior Dev.</h4>
       </div>
-    </div>
-    <div class="nav">
+    </header>
+    <!-- This component is the navigation on smaller display sizes < 1600px It is the same on all html docs-->
+    <nav class="nav">
       <div class="nav-link"><a href="./work.html">work</a></div>
       <div class="nav-link"><a href="./about.html">about</a></div>
       <div class="nav-link"><a href="./blog.html">blog</a></div>
       <div class="nav-link"><a href="./contact.html">contact</a></div>
-    </div>
-    <div class="outer-grid">
+    </nav>
+    <!-- This component is the navigation for larger screen sizes and main content area. It is the same on all html docs -->
+    <aside class="outer-grid">
       <div class="about nav-item">
         <h1><a href="./about.html">About</a></h1>
       </div>
       <div class="blog nav-item">
         <h1><a href="./blog.html">Blog</a></h1>
       </div>
-      <!-- <div class="skills nav-item">
-        <h1>Skills
-        </h1>
-      </div> -->
+     
       <div class="work nav-item">
         <h1><a href="./work.html">Work</a></h1>
       </div>
@@ -46,11 +45,9 @@
         <h1><a href="./contact.html">
             Contact</a></h1>
       </div>
-      <div class="content-area">
+      <main class="content-area">
 
-        <!-- <img class="image"
-          src="https://images.unsplash.com/photo-1528690266365-735c899e724c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80"
-          alt="Toucan"> -->
+        <!-- This component is an image displayed with clipped border and matching text path using svg it features on main page and content page. and sort of on about me page as well. -->
         <div class="image-wrap">
           <div class="image">
             <img src="./Kyle-Smith-Portrait-cropped.jpg" alt="Kyle Smith Portrait - photographer Farley Morgan">
@@ -69,25 +66,27 @@
                 c43.6,1.7,34.8,5.6,137.9-1.7c54.4-3.9,69.2-7.7,98.7-16.7c38.2-11.6,51.2-25.5,59.5-33.8c12.4-12.4,20.7-24.3,25.4-33.3" />
                 <text width="600" class="textpath-text">
                   <textPath xlink:href="#curve">
-                    To get in touch with me, click one of these: &#128579 &#129312 &#128526
+                    To get in touch with me, click one of these: <a href="./contact.html">&#128579</a> <a href="./contact.html">&#129312</a> <a href="./contact.html">&#128526</a>
                   </textPath>
                 </text>
               </svg>
             </div>
           </div>
         </div>
+        <!-- this component is the content area. it is differnt on every page. sometimes it has some text. sometimes it has a grid display with images as in blog post and work page.  -->
         <div class="content">
           <div class="content-heading">
             <h3>Hello! </h3>
           </div>
           <div class="content-main" id="scrollbar-style">
-            <p>My name is Kyle. Welcome to my site which I built with my own bare hands. </p>
+            <p>My name is Kyle. Welcome to my site which I built with my own two bare hands. </p>
           </div>
           <div class="content-footer"></div>
         </div>
-      </div>
-    </div>
-    <div class="footer">
+      </main>
+    </aside>
+    <!-- This component is the footer. It is the same on all html docs -->
+    <footer class="footer">
       <div class="left-content">
         <p>&#169 2019 Kyle Smith</p>
       </div>
@@ -96,7 +95,7 @@
         <a href="https://www.linkedin.com/in/kyle-smith-238771ab/?originalSubdomain=au" class="linked-in"><i
             class="fab fa-linkedin-in icon"></i></a>
       </div>
-    </div>
+    </footer>
 
   </div>
 
