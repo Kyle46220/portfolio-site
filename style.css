@@ -170,6 +170,12 @@ h1 {
       align-items: center;
       justify-content: flex-start;
     }
+    .about-heading {
+      height: 35px;
+    }
+    .about-image img {
+      float: none;
+    }
   }
   @media only screen and (max-width: 900px) {
     .about {
@@ -215,6 +221,9 @@ h1 {
     }
     .about-image img {
       float: none;
+    }
+    .about-heading {
+      font-size: 30px;
     }
   }
   @media only screen and (max-height: 1150px) {

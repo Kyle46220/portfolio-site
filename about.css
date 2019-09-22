@@ -6,8 +6,29 @@
   font-size: 2vw;
 }
 
+
+
 .about-image img {
-  height: 30vh;
+  height: 30vw;
   width: auto;
   float: right;
+  clip-path: url(#about-svgPath);
 }
+
+.about-heading {
+  font-size: 2vw;
+  fill: var(--brick-red);
+  font-family: 'Alike Angular', serif;
+  /* position: relative; */
+}
+
+.about-textpath-text text{
+  
+  
+  font-family: 'Alike Angular', serif;
+}
+
+.about-curve-text {
+  padding-bottom: 5%;
+}
+
